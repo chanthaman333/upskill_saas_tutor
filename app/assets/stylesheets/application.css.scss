@@ -28,8 +28,26 @@ h1, h2, h3 {
   background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.navbar{
+.navbar {
   border: none;
+}
+
+.navbar-default .navbar-brand {
+  color:white;
+}
+
+.navbar-default .navbar-nav > li > a  {
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color:white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:white;
+  opacity: 0.60;
 }
 
 .home-callout {
@@ -38,3 +56,4 @@ h1, h2, h3 {
   padding-top: 40px;
   padding-bottom: 80px;
 }
+
